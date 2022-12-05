@@ -1,13 +1,12 @@
 import { BrowserRouter, Routes, Router, Route, Link, NavLink } from "react-router-dom";
 import PostPage from "./pages/PostPage";
-import './App.css';
-
+import CustomBtn from "./components/CustomBtn";
 
 function App() {
   return (
   <BrowserRouter>
     <Routes>
-      <Route path="/post" element={<PostPage/>} />
+      <Route path="/post" element={<CustomBtn/>} />
     </Routes>
   </BrowserRouter>
 );
