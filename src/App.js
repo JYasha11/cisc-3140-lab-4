@@ -1,24 +1,30 @@
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Header from './Components/Header';
+import AddSquirrel from './Components/AddSquirrel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+    <Header/>
+    <div class="grid-container">
+  <div class="grid-item"><AddSquirrel/></div>
+  <div class="grid-item"><div className="list">
+      <ul>
+        <li>Squirrel sighting ID</li>
+        <li>Color Key</li>
+        <li>Activity</li>
+        <li>Age</li>
+        <li>Date</li>
+        <li>Time</li>
+        <li>Location ID</li>
+      </ul>
+    </div></div>
+  </div>
+    
+    
+    </>
   );
 }
 
