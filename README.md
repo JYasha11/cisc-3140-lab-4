@@ -39,6 +39,40 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## General Backend Information
+There is one main table for sighting entry that the users should input and two other tables for data management, the location table and the appearance table. The two other tables are purely in there just to ensure consistency across entries; location would be consistent with respect to the buildings that the sightings were close to and squirrel appearance would be uniform amongst the color keys.
+
+## Repository Report
+As our partners were ourselves, we are using our own backend.
+
+## Evaluation Questionnaire
+OS we are running the project on: Windows 10, Linux, macOS.
+
+## Project Repository:
+README present on GitHub.
+Changelog in the form of commit messages.
+Instructions present on README and Bash script.
+Description of PostgreSQL presented in presentation and installation instructions in bash script.
+Utilizing proper naming conventions and best practices.
+General comments on functionality of class/function/block exists in most of the files save for the extra java file. Input and Output mainly present in dbpopulate file and build file.
+Uniform indentation, across a single file. Comments and variable names are sensible.
+Test CSV files are placed as input files for running the functions.
+Test CSV file has adequate input information.
+
+## Software Design Evaluation:
+Purpose of the project given in README and presentation. This project is build dependencies for the squirrel database and create API endpoints for said database.
+Not present.
+Project is to be forked from the repository onto one’s device and build.sh is to be run. Follow instructions for installation of dependencies in build.sh and the script will set up the database and API endpoints.
+
+## Software Implementation Evaluation:
+The instruction leads to running the build.sh file for installation and setup.
+The build.sh file describes what steps to take next.
+Instructions given by build.sh more or less explain what needs to be installed and where for each type of OS. Missing information: how to set up PostgreSQL in the PATH environment.
+This project states to install Node, NPM and PostgreSQL for it to work.
+Had to install Node, NPM and PostgreSQL by following the instructions given by the build.sh script.
+To run the program provided, build.sh had to be run via terminal or CMD for Windows which came with macOS/linux and Windows respectively. Further dependencies such as Node, NPM and PostgreSQL installations were needed which there were instructions given for.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
