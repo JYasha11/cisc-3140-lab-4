@@ -1,7 +1,7 @@
 import * as React from "react";
 //import { AiFillEdit } from 'react-icons/fa';
-import update_svg from "../Images/update_icon.svg";
-import delete_svg from "../Images/delete_icon.svg";
+import update_svg from "../images/update_icon.svg";
+import delete_svg from "../images/delete_icon.svg";
 import "./DataLists.css";
 
 function DataLists() {
