@@ -1,0 +1,36 @@
+.dbLists {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    width: 80rem;
+    border: #4b4b4b;
+}
+
+.dbLists ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 30px;
+    line-height: 20px;
+}
+
+
+.dbLists ul>li {
+    display: block;
+    float: left;
+    margin: 30px;
+    color: #4b4b4b;
+    font-size: 20px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+}
