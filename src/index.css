@@ -15,13 +15,14 @@ code {
 
 
 .list {
-  width: 800px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  margin-left: 18rem;
-  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 76rem;
 }
 
 .list ul {
@@ -29,7 +30,7 @@ code {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c7c3c3;
+  background-color: rgb(99, 99, 102);
   border-radius: 30px;
   line-height: 20px;
 }
@@ -39,6 +40,10 @@ code {
   display: block;
   float: left;
   margin: 30px;
-  color: #4b4b4b;
+  color: white;
   font-size: 20px;
+}
+
+hr{
+  max-width: 90%;
 }

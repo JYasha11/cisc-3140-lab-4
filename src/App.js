@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="list">
         <ul>
-          <li></li>
+          <li><input type="checkbox" /></li>
           <li>Squirrel sighting ID</li>
           <li>Color Key</li>
           <li>Activity</li>
@@ -18,6 +18,7 @@ function App() {
           <li></li>
         </ul>
       </div>
+      <hr style={{background: 'lightgrey', border: 'none', height: '3px'}}/>
       <DataLists />
     </>
 
