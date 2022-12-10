@@ -20,47 +20,115 @@ code {
 }
 
 
-.list {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 76rem;
-}
-
-.list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(99, 99, 102);
-  border-radius: 30px;
-  line-height: 20px;
-}
-
-.list ul>li {
-  display: block;
-  float: left;
-  margin: 30px;
-  color: white;
-  font-size: 20px;
-}
-
-
 .grid-container{
   display: grid;
   padding: 10px;
-
+  width: 1870px;
 }
 
 .grid-item {
   padding: 20px;
   grid-column: span 4;
+
+
 }
 
-hr{
-  max-width: 90%;
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.list ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c7c3c3;
+}
+
+.list ul>li{
+  display: block;
+  float:left;
+  margin:43px;
+  color: #4b4b4b;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.listItems{
+  display: block;
+  float:left;
+  margin:43px;
+  color: #4b4b4b;
+  font-size: 20px;
+  padding: 0px;
+  
+}
+
+.displayedInto{
+  display: inline-table;
+}
+
+
+
+
+.dbLists {
+  width: 90rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(99, 99, 102);
+  padding: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);;
+}
+
+.dbListsUl{
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(174, 174, 178);
+  border-radius: 30px;
+
+}
+
+.dbLists ul>li {
+  display: inline;
+  float: left;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #4b4b4b;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+}
+
+button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: transform .2s;
+  line-height: 10px;
+  margin-bottom: 1rem;
+  padding: 0px;
+}
+button:hover{
+ transform: scale(1.1);
 }
